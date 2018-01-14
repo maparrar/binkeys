@@ -1,3 +1,1 @@
-WID=`xdotool search --title "Google Chrome" | head -1`
-xdotool windowactivate $WID
-xdotool key shift+ctrl+alt+Left
+xdotool search --name Deezer windowactivate key shift+ctrl+alt+Left
