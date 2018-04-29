@@ -10,4 +10,6 @@ KDE plasmoid to show timer for pomodoro technique in the task bar
 1. Drag and drop the widget in the task bar
 
 ## bluetooth
-Solve the problem connecting MX Logitech mouse in Asus N56-VZ
+Solve the problem connecting MX Logitech mouse in Asus N56-VZ.
+### Requisites
+`sudo apt install gksu`
