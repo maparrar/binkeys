@@ -1,6 +1,5 @@
 #!/bin/bash
 # maparrar@gmail.com
-# https://github.com/maparrar/bluetooth-problem
 # 2018-01-07
 
 gksu -- bash -c '
