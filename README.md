@@ -1,5 +1,5 @@
 # utils
-To solve my life with Linux
+How GNU/Linux save my time!
 
 ## binkeys
 Scripts for customize device buttons. (i.e. MX Logitech mouse)
