@@ -1,0 +1,20 @@
+#!/bin/bash
+# maparrar@gmail.com
+# https://github.com/maparrar/bluetooth-problem
+# 2018-01-07
+
+
+#sudo modprobe -r btusb
+#sudo modprobe btusb
+#sleep 1
+#sudo python ~/Dropbox/tools/bluetooth-problem/bt.py
+#sleep 1
+#sudo python ~/Dropbox/tools/bluetooth-problem/bt.py
+
+gksu -- bash -c '
+sudo pip install pyusb;
+sudo modprobe -r btusb;
+sudo modprobe btusb;
+sleep 2;
+sudo python /home/maparrar/Dropbox/tools/bluetooth-problem/bt.py;
+sudo python /home/maparrar/Dropbox/tools/bluetooth-problem/bt.py;'
